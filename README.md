@@ -1,2 +1,13 @@
-# plant_disease_classifier
-# Plant Disease Classifier  ## Project Overview - Deep learning model to detect plant diseases - Built with PyTorch and ResNet50 - Interactive web interface using Streamlit - Currently supports Corn (healthy) and Tomato (late blight) classification - 99% training accuracy and robust validation performance
+# Plant Disease Classifier
+
+## Overview
+A deep learning-based web application that classifies plant diseases from images. Currently supports:
+- Healthy Corn Leaves
+- Tomato Late Blight
+
+## Tech Stack
+- PyTorch (Deep Learning)
+- Streamlit (Web Interface)
+- ResNet50 (Pre-trained Model)
+
+## Project Structure
