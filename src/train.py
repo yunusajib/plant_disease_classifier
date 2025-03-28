@@ -6,9 +6,10 @@ from pathlib import Path
 import yaml
 import time
 from tqdm import tqdm
+import numpy
 
-from .model import PlantDiseaseModel
-from .data_loader import get_dataloaders
+from model import PlantDiseaseModel
+from data_loader import get_dataloaders
 
 def train_model(config_path):
     # Load config

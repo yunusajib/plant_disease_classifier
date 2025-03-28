@@ -78,14 +78,14 @@ def get_dataloaders(config_path):
         train_dataset,
         batch_size=config['data']['batch_size'],
         shuffle=True,
-        num_workers=4
+        num_workers=0
     )
     
     val_loader = DataLoader(
         val_dataset,
         batch_size=config['data']['batch_size'],
         shuffle=False,
-        num_workers=4
+        num_workers=0
     )
     
     return train_loader, val_loader, train_dataset.class_to_idx
